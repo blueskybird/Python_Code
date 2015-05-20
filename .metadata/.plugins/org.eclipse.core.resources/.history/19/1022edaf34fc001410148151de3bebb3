@@ -1,0 +1,20 @@
+
+
+class DealDetail():
+    
+    
+    def __init__(self,url):
+        self.url = url
+        
+    
+    def lstrip_character():
+        if '/' in self.url:
+            return self.url.lstrip('/')
+        else:
+            return self.url
+        
+
+if __name__ == '__main__':
+    url = '/xfdsafsf.jpg'
+    dd = DealDetail(url)
+    print dd.lstrip_character()

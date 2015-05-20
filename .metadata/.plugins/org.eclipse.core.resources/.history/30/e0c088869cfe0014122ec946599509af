@@ -1,0 +1,26 @@
+from sklearn.naive_bayes import GaussianNB
+from featurevec import *
+import datetime
+
+start_time = datetime.datetime.now()
+# train data
+rootdir = r'F:\kuaipan\short_text_data\xinlangweibo'
+fd = FileDir(rootdir)
+file_folders = fd.return_filedir()
+ 
+fv = FeatureVec()
+  
+means = []
+classnum = []
+ 
+lena = len(file_folders)
+for i in range(lena):
+    v = fv.return_feature_vec(file_folders[i])
+    for j in v:
+        means.append(j)
+        classnum.append(i)
+print len(means), len(classnum), lena
+
+gnb = GaussianNB()
+y_pred = gnb.fit(means, classnum)
+print y_pred

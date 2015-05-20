@@ -1,0 +1,6 @@
+from sklearn.naive_bayes import GaussianNB
+from featurevec import *
+import datetime
+
+gnb = GaussianNB()
+y_pred = gnb.fit(iris.data, iris.target).predict(iris.data)

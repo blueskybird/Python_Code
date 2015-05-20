@@ -1,0 +1,5 @@
+
+a = range(10000)
+b = [a for i in range(10000)]
+
+print len(b)

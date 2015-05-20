@@ -1,0 +1,4 @@
+# -*- coding: utf-8 -*-
+
+files_path = r'F:\kuaipan\short_text_data\xinlangweibo'
+features_path = r'F:\kuaipan\short_text_data\xinlangweibofeatures.txt'
