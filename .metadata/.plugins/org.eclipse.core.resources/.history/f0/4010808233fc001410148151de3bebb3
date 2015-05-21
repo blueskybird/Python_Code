@@ -1,0 +1,14 @@
+
+
+class DealDetail():
+    
+    
+    def __init__(self,url):
+        self.url = url
+        
+    
+    def lstrip_character(self):
+        if '/' in self.url:
+            return self.url.lstrip('/')
+        else:
+            return self.url

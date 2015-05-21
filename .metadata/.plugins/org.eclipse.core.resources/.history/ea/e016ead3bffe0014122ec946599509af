@@ -1,0 +1,7 @@
+
+a = range(10000)
+b = [a for i in range(10000)]
+
+b[0][1] = 1
+
+print b [0][1], len(b)

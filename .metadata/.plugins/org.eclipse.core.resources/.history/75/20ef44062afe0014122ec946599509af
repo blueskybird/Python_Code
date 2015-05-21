@@ -1,0 +1,18 @@
+# -*- coding: utf-8 -*-
+
+from sklearn import svm
+import datetime
+
+print 'start...'
+start_time = datetime.datetime.now()
+X = [[0], [1], [2], [3]]
+Y = [0, 1, 2, 3]
+clf = svm.SVC()
+clf.fit(X, Y) 
+
+print clf.predict([[2]])
+
+end_time = datetime.datetime.now()
+
+print end_time - start_time
+print 'end...'

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../BuileNet/.idea/BuileNet.iml" filepath="$PROJECT_DIR$/../BuileNet/.idea/BuileNet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../HelloPython/.idea/HelloPython.iml" filepath="$PROJECT_DIR$/../HelloPython/.idea/HelloPython.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/MessageAttack.iml" filepath="$PROJECT_DIR$/.idea/MessageAttack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../NewsSpider/.idea/NewsSpider.iml" filepath="$PROJECT_DIR$/../NewsSpider/.idea/NewsSpider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../djangogo/.idea/djangogo.iml" filepath="$PROJECT_DIR$/../djangogo/.idea/djangogo.iml" />
+      <module fileurl="file://$USER_HOME$/lsblog/.idea/lsblog.iml" filepath="$USER_HOME$/lsblog/.idea/lsblog.iml" />
+    </modules>
+  </component>
+</project>
+

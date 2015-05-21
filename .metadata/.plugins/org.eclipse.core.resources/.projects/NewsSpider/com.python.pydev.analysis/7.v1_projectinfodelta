@@ -1,0 +1,15 @@
+INSTUPfileprocess.filedir
+G:\kuaipan\Python_Code\NewsSpider\src\fileprocess\filedir.py
+INFOS:&&1|1|2|0&&2|3|2|1&&3|4|2|5&&3|6|2|5&&2|7|2|1&&2|8|2|1&&2|9|2|1&&3|10|2|0&&3|11|2|0&&3|12|2|0&&3|10|2|0
+dir=6
+return_filedir=7
+path=4
+filepath=1
+replace_char=8
+filedirname=10
+filepath.__init__=5
+filedir=11
+process_filecontent=9
+fileprocess.filedir=2
+__init__=3
+fd=12

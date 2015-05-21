@@ -1,0 +1,366 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>中国_军事_中国网_权威军事新闻网站</title>
+<link rel="stylesheet" type="text/css" href="http://images.china.cn/images1/ch/2014military/global.css"/>
+<link rel="stylesheet" type="text/css" href="http://images.china.cn/images1/ch/2014military/second.css"/>
+<script type="text/javascript" src="http://www.china.com.cn/lib/jquery-1.11.0.min.js">
+</script>
+</head>
+<body>
+<div style="text-align:center; padding-top:10px;">
+<script type="text/javascript">
+<!--
+    /*X-通栏banner 960*90，创建于2014-3-4*/
+    var cpro_id = "u1480855";
+-->
+</script>
+
+ 
+
+<script src="http://cpro.baidustatic.com/cpro/ui/c.js" type="text/javascript">
+</script>
+</div>
+
+<!--begin 8241887-7207707-2--><div class="head">
+    <iframe id="headIfr" src="node_7207707.htm" width="100%" height="177" scrolling="no" marginheight="0" frameborder="0"></iframe>
+  </div><!--end 8241887-7207707-2-->
+<div class="wrap">
+<div class="w580 fl">
+<h1 class="s_title"><!--begin 8241888-0-5-->中国<!--end 8241888-0-5--></h1>
+
+<!--begin 8241889-0-9-->
+<ul id="c_list" class="c_list">
+<li>
+<div class="c_title fl"><a href="2014-12/25/content_34410521.htm" target="_blank">国防部:制止"台独"分裂图谋的决心意志不会动摇</a></div>
+
+<div class="c_time fr">2014-12-25 17:12:10</div>
+
+<div class="c_doc">据国防部网站消息，国防部发言人杨宇军今日在例行记者会上就台湾问题表示，我们推动两岸关系和平发展的方针政策不会改变，制止“台独”分裂图谋的决心意志不会动摇。</div>
+
+<div class="c_keywords fl">国防部,台独,分裂图谋,决心意志,动摇</div>
+</li>
+
+<li>
+<div class="c_title fl"><a href="2014-12/25/content_34410456.htm" target="_blank">国防部:中国试射东风-41洲际导弹属正常科研实验</a></div>
+
+<div class="c_time fr">2014-12-25 17:03:58</div>
+
+<div class="c_doc">据国防部网站消息，国防部发言人杨宇军今日在例行记者会上就中国试射东风-４1洲际导弹表示，我们在境内按计划进行的科研试验是正常的，这些试验不针对任何特定国家和目标。</div>
+
+<div class="c_keywords fl">国防部,试射,东风-41,洲际导弹,科研实验</div>
+</li>
+
+<li>
+<div class="c_title fl"><a href="2014-12/25/content_34410349.htm" target="_blank">国防部回应在南麂列岛建基地:在领土建设无可非议</a></div>
+
+<div class="c_time fr">2014-12-25 16:53:14</div>
+
+<div class="c_doc">据国防部网站消息，国防部发言人杨宇军今日在例行记者会上就日本媒体热议中国在南麂列岛进行建设一事表示，中方在自己的领土上进行任何活动和建设，都是无可非议的。</div>
+
+<div class="c_keywords fl">国防部,南麂列岛,军事基地,领土建设,无可非议</div>
+</li>
+
+<li>
+<div class="c_title fl"><a href="2014-12/25/content_34409967.htm" target="_blank">我军全面推开联合作战指挥人才专业化培养模式</a></div>
+
+<div class="c_time fr">2014-12-25 16:17:43</div>
+
+<div class="c_doc">据国防部网站消息，国防部发言人杨宇军今日在例行记者会上介绍联合作战指挥人才专业化培养模式时表示，经过一段时间的试点，我军提出全面推开联合作战指挥人才专业化培养模式。</div>
+
+<div class="c_keywords fl">培养模式,指挥人才,我军,一体化联合作战,军队</div>
+</li>
+
+<li>
+<div class="c_title fl"><a href="2014-12/25/content_34409709.htm" target="_blank">国防部:中国军队全年参加31场双边多边演训活动</a></div>
+
+<div class="c_time fr">2014-12-25 15:45:17</div>
+
+<div class="c_doc">据国防部网站消息，国防部发言人杨宇军今日在例行记者会上介绍今年中外军队联演联训情况时表示，全年中国军队共参加了31场双边多边演训活动，训练课题从非传统安全领域向传统安全领域拓展，更加贴近实战化。</div>
+
+<div class="c_keywords fl">中国军队,训练,我军,部队,非传统安全</div>
+</li>
+
+<li>
+<div class="c_title fl"><a href="2014-12/25/content_34406429.htm" target="_blank">王建平和苗华分别出任新任副总参谋长和海军政委</a></div>
+
+<div class="c_time fr">2014-12-25 10:06:46</div>
+
+<div class="c_doc">武警部队司令员王建平和兰州军区政委苗华职务发生变化，分别出任总参和海军领导职务。</div>
+
+<div class="c_keywords fl">苗华,海军,兰州军区,武警部队,八一</div>
+</li>
+
+<li>
+<div class="c_title fl"><a href="2014-12/25/content_34405995.htm" target="_blank">美智库：中国虽不想开战 但力求把美国赶出亚太</a></div>
+
+<div class="c_time fr">2014-12-25 09:47:59</div>
+
+<div class="c_doc">2014年是中国军事实力迅猛发展的一年。北京的强军之举是为了支持并保卫中国日益增长的利益，例如中国在东海和南海的领土要求。</div>
+
+<div class="c_keywords fl">高超音速飞行器,美国,航母,新型潜艇,反卫星</div>
+</li>
+
+<li>
+<div class="c_title fl"><a href="2014-12/25/content_34405889.htm" target="_blank">海军男初级士官将着水兵服</a></div>
+
+<div class="c_time fr">2014-12-25 09:33:49</div>
+
+<div class="c_doc"><img src="http://images.china.cn/attachement/jpg/site1000/20141225/002564baeb7d1605af9a5f.jpg" width="180" class="fl" alt="海军男初级士官将着水兵服"/>海军机关有关负责人介绍，根据总部《扩大海军水兵服穿着范围的通知》，海军水兵服2015年扩大穿着范围，男初级士官将统一换着水兵服。原配发的海军士官大檐帽、春秋常服、冬常服和长袖夏常服停止穿用。</div>
+
+<div class="c_keywords fl">海军,水兵服,男初级士官</div>
+</li>
+
+<li>
+<div class="c_title fl"><a href="2014-12/25/content_34405810.htm" target="_blank">美媒称中国刚买野牛气垫船就后悔 最终走出灾难</a></div>
+
+<div class="c_time fr">2014-12-25 09:35:57</div>
+
+<div class="c_doc">报道称，上世纪90年代，希腊和中国从俄罗斯和乌克兰购买了欧洲野牛级气垫登陆舰，结果买完就后悔了。不过，中国走出了这场灾难，因为他们比希腊人更擅长维护不大牢靠的俄罗斯装备。</div>
+
+<div class="c_keywords fl">欧洲野牛,气垫船,防御反舰导弹,火控系统</div>
+</li>
+
+<li>
+<div class="c_title fl"><a href="2014-12/25/content_34404601.htm" target="_blank">美媒称歼20已达进化终点 研发速度很快即将服役</a></div>
+
+<div class="c_time fr">2014-12-25 08:10:36</div>
+
+<div class="c_doc">五角大楼称歼-20可能于2018年开始服役，距离首架原型机试飞之后七年。这与F-22和歼-10B的研发步调一致。</div>
+
+<div class="c_keywords fl">歼-20,服役,F-22战斗机,进化,试飞</div>
+</li>
+
+<li>
+<div class="c_title fl"><a href="2014-12/24/content_34401932.htm" target="_blank">明年起海军男初级士官着水兵服:黑飘带蓝披肩(图)</a></div>
+
+<div class="c_time fr">2014-12-24 17:53:32</div>
+
+<div class="c_doc">12月23日，东海舰队某水警区机关直属分队下士刘小强试穿水兵服。2007年我军军服改革之后，水兵服的穿着范围为海军男列兵、上等兵，穿着水兵服人员不到海军官兵总数的1/5，舰艇部队穿着水兵服人员比例更低。</div>
+
+<div class="c_keywords fl">士官,山摄,海军官兵,海军部队,舰艇部队</div>
+</li>
+
+<li>
+<div class="c_title fl"><a href="2014-12/24/content_34401062.htm" target="_blank">军报:对吃党饭砸党锅者应夺其饭碗不给饭吃</a></div>
+
+<div class="c_time fr">2014-12-24 16:28:56</div>
+
+<div class="c_doc">外敌强攻不足畏，木马藏奸最可怕。共产党员和党的干部，爱党忧党、兴党护党，义不容辞、责无旁贷。外敌强攻不足畏，木马藏奸最可怕。谁与党离心，就旗帜鲜明地与谁划清界限；谁给党抹黑，就毫不犹豫地与谁进行坚决斗争。</div>
+
+<div class="c_keywords fl">共产党员,党的干部,自尚,自护其短,党的形象</div>
+</li>
+
+<li>
+<div class="c_title fl"><a href="2014-12/24/content_34397083.htm" target="_blank">美专家要中国管好飞行员 否则将重演南海撞机</a></div>
+
+<div class="c_time fr">2014-12-24 10:12:44</div>
+
+<div class="c_doc"><img src="http://images.china.cn/attachement/jpg/site1000/20141224/7427ea2109511604675022.jpg" width="180" class="fl" alt="美专家要中国管好飞行员 否则将重演南海撞机"/>马来西亚“星报”网站12月23日报道称，从波罗的海到中国南海，天空成了美国及其盟友的飞行员与中俄对抗的新战场，其规模之大，自冷战以来前所未见。外国专家认为，一些中国战机的激进行为可能是由于初级飞行员的鲁莽所致，而并非是来自北京的指示。</div>
+
+<div class="c_keywords fl">飞行员,战机,撞机,俄罗斯空军</div>
+</li>
+
+<li>
+<div class="c_title fl"><a href="2014-12/24/content_34397041.htm" target="_blank">美专家：中日将像美日一样亲密 几十年就能达到</a></div>
+
+<div class="c_time fr">2014-12-24 10:08:22</div>
+
+<div class="c_doc">最近有报道称，日本政府最新调查显示，对中国“不抱亲近感”的日本人比率为83.1%，创下自1978年开始调查以来的最差纪录。对美国感到亲近的受访者比率为82.6%。</div>
+
+<div class="c_keywords fl">美日同盟,中日两国,集体安全,中日关系,日美关系</div>
+</li>
+
+<li>
+<div class="c_title fl"><a href="2014-12/24/content_34396325.htm" target="_blank">某特战训练场:首批新兵参与实战对抗比武</a></div>
+
+<div class="c_time fr">2014-12-24 09:27:04</div>
+
+<div class="c_doc"><img src="http://images.china.cn/attachement/jpg/site1000/20141224/002564baeb7d16045d1148.jpg" width="180" class="fl" alt="某特战训练场:首批新兵参与实战对抗比武"/>12月23日，广东边防总队机动支队训练基地特战训练场迎来12名新队员。经过一个月的复训，12名年度新兵从该支队300多名新兵中脱颖而出，作为示范分队率先参与实战对抗训练中。</div>
+
+<div class="c_keywords fl">新兵,训练场,特战,老兵,实战</div>
+</li>
+
+<li>
+<div class="c_title fl"><a href="2014-12/24/content_34396009.htm" target="_blank">33名95后“兵后代”志守边关</a></div>
+
+<div class="c_time fr">2014-12-24 09:20:50</div>
+
+<div class="c_doc"><img src="http://images.china.cn/attachement/jpg/site1000/20141224/002564baeb7d16045b8d49.jpg" width="180" class="fl" alt="33名95后&#8220;兵后代&#8221;志守边关"/>强鹏的爷爷参加过抗美援朝作战，黄鑫的爷爷参加过剿匪作战，罗港明的爷爷参加过渡江作战……他们同是95后，也都接过亲人的钢枪用行动发出了铮铮的誓言：“平时愿为人民站岗，战时愿为祖国尽忠！”</div>
+
+<div class="c_keywords fl">抗美援朝,剿匪作战,渡江作战,兵后代,志守边关</div>
+</li>
+
+<li>
+<div class="c_title fl"><a href="2014-12/24/content_34395921.htm" target="_blank">新兵在寒风冰雪中经受考验</a></div>
+
+<div class="c_time fr">2014-12-24 09:02:04</div>
+
+<div class="c_doc"><img src="http://images.china.cn/attachement/jpg/site1000/20141224/002564baeb7d160457482c.jpg" width="180" class="fl" alt="新兵在寒风冰雪中经受考验"/>12月9日，气温降至-13℃。新疆伊犁军分区新兵团新战士在野营拉练中经受严寒与风雪、耐力与毅力的考验。</div>
+
+<div class="c_keywords fl">新兵,严寒,风雪,考验,战斗作风</div>
+</li>
+
+<li>
+<div class="c_title fl"><a href="2014-12/24/content_34394855.htm" target="_blank">联合国《武器贸易条约》今日生效 中俄未签署</a></div>
+
+<div class="c_time fr">2014-12-24 07:52:13</div>
+
+<div class="c_doc">联合国一项监管全球850亿美元武器贸易的《武器贸易条约》24日正式生效。目前共有130个国家签署该条约，其中60个国家已经予以批准。最大武器出口国美国尚未批准该条约。</div>
+
+<div class="c_keywords fl">联合国,武器出口,中俄,武器贸易条约,环球时报</div>
+</li>
+
+<li>
+<div class="c_title fl"><a href="2014-12/23/content_34389819.htm" target="_blank">中国海军不惧万吨美舰：敢进射程就开炮击沉</a></div>
+
+<div class="c_time fr">2014-12-23 15:18:07</div>
+
+<div class="c_doc">”突然，一个很有血性的声音在驾驶室回荡资料图：图为中国海军“海口”号导弹驱逐舰。演练结束，鉴于张世全在演习中的突出表现，作为水面舰艇参演部队的唯一代表，张世全接受了俄罗斯国防部长伊万诺夫授予的“和平纪念勋章”。</div>
+
+<div class="c_keywords fl">中国海军,战舰,射程,驱逐舰,导弹</div>
+</li>
+
+<li>
+<div class="c_title fl"><a href="2014-12/23/content_34387672.htm" target="_blank">武警新疆喀什边防高原新兵“快乐暖寒冬”</a></div>
+
+<div class="c_time fr">2014-12-23 11:29:53</div>
+
+<div class="c_doc"><img src="http://images.china.cn/attachement/jpg/site1000/20141223/002564baeb7d160328691a.jpg" width="180" class="fl" alt="武警新疆喀什边防高原新兵&#8220;快乐暖寒冬&#8221;"/>23日，驻守在海拔3500米左右的武警新疆喀什边防高原部队开展了军人宣誓仪式、心理行为训练、过集体生日、解忧帮困等一系列活动，为有效帮助新兵调适心理，缓解压力，增强军人责任意识，尽快适应新环境、新岗位、新生活。</div>
+
+<div class="c_keywords fl">武警,高原部队,新兵</div>
+</li>
+
+<li>
+<div class="c_title fl"><a href="2014-12/23/content_34386918.htm" target="_blank">第6艘903A大型补给舰下水</a></div>
+
+<div class="c_time fr">2014-12-23 10:51:57</div>
+
+<div class="c_doc"><img src="http://images.china.cn/attachement/jpg/site1000/20141223/002564baeb7d16031f7559.jpg" width="180" class="fl" alt="第6艘903A大型补给舰下水"/>近日，在国内某造船厂，1艘大型远洋补给舰成功下水，从外观上看，属于903A型补给舰。</div>
+
+<div class="c_keywords fl">远洋补给舰,中国,海军</div>
+</li>
+
+<li>
+<div class="c_title fl"><a href="2014-12/23/content_34386828.htm" target="_blank">当冬至“撞上”军营：这个冬至不太冷</a></div>
+
+<div class="c_time fr">2014-12-23 10:47:59</div>
+
+<div class="c_doc"><img src="http://images.china.cn/attachement/jpg/site1000/20141223/002564baeb7d16031e1400.jpg" width="180" class="fl" alt="当冬至&#8220;撞上&#8221;军营：这个冬至不太冷"/>农历冬至节气，南京最低气温降至零下5摄氏度，武警江苏总队一支队的特战官兵不畏严寒，苦练精兵，以提高在各种复杂天气环境中处置突发事件的实战能力。</div>
+
+<div class="c_keywords fl">冬至,军营,特战官兵,实战</div>
+</li>
+
+<li>
+<div class="c_title fl"><a href="2014-12/23/content_34385798.htm" target="_blank">海拔5000米 高原官兵沙尘中砺精兵</a></div>
+
+<div class="c_time fr">2014-12-23 09:48:50</div>
+
+<div class="c_doc"><img src="http://images.china.cn/attachement/jpg/site1000/20141223/002564baeb7d1603108149.jpg" width="180" class="fl" alt="海拔5000米 高原官兵沙尘中砺精兵"/>12月20日，念青唐古拉雪山脚下，铁流滚滚，尘土飞扬，驻藏某旅合成营战术协同演练激烈展开。坦克引导，步兵突前，精确猎杀进犯之“敌”…….</div>
+
+<div class="c_keywords fl">念青唐古拉雪山,战术协同演练,极限挑战</div>
+</li>
+
+<li>
+<div class="c_title fl"><a href="2014-12/23/content_34385686.htm" target="_blank">中国首支维和步兵营：装备高于国内平均水平</a></div>
+
+<div class="c_time fr">2014-12-23 09:42:30</div>
+
+<div class="c_doc">步兵营兵力规模700人，携带无人机、步战车、装甲运兵车等武器；女步兵在射击中都打出过满环。</div>
+
+<div class="c_keywords fl">步兵营,南苏丹维和步兵营,联合国,维和行动</div>
+</li>
+
+<li>
+<div class="c_title fl"><a href="2014-12/22/content_34381217.htm" target="_blank">军报批孙海英对毛泽东不敬 抹黑共产党形象</a></div>
+
+<div class="c_time fr">2014-12-22 17:54:04</div>
+
+<div class="c_doc">演员孙海英演绎的石光荣荧屏形象，给我们留下革命年代的美好记忆。但是阅读他的微博，我们看到生活中的孙海英忙着诵读圣经做礼拜，更令人惊愕的是他对毛泽东等革命先辈的不敬中国公民有宗教信仰自由，但是基督教信徒能演好优秀共产党人形象吗？</div>
+
+<div class="c_keywords fl">孙海英,微博,毛泽东,解放军报,礼拜</div>
+</li>
+
+<li>
+<div class="c_title fl"><a href="2014-12/22/content_34377590.htm" target="_blank">军校学员晒“穿越照” 军队让他们蝶变</a></div>
+
+<div class="c_time fr">2014-12-22 10:41:58</div>
+
+<div class="c_doc"><img src="http://images.china.cn/attachement/jpg/site1000/20141222/002564baeb7d1601caf263.jpg" width="180" class="fl" alt="晒晒军校学员的穿越照"/>近日，晒晒穿越照的活动在中国军校很流行！装甲兵工程学院、海军大连舰艇学院、陆军航空兵学院、装备学院、解放军理工大学等10多家军校学员，纷纷晒出自己的“穿越照”，和自己的过去合个影。</div>
+
+<div class="c_keywords fl">军校学员,陆军航空兵学院,装甲兵工程学院,海军大连舰艇学院,解放军理工大学</div>
+</li>
+
+<li>
+<div class="c_title fl"><a href="2014-12/22/content_34376397.htm" target="_blank">最新2015号歼20首飞照曝光 尾撑被削尖</a></div>
+
+<div class="c_time fr">2014-12-22 09:26:44</div>
+
+<div class="c_doc"><img src="http://images.china.cn/attachement/jpg/site1000/20141222/002564baeb7d1601b9a242.jpg" width="180" class="fl" alt="最新2015号歼20首飞照曝光 尾撑被削尖"/>12月19日下午，刷涂编号2015的第6架国产第四代战斗机歼-20升空进行首次试飞。近日，2015号歼-20战机高清试飞照在网络上曝光。值得注意的是，相比之前已经完成首飞的歼-20，2015号机又有了新的改动，在机尾尾撑处做了削尖处理。</div>
+
+<div class="c_keywords fl">中国,战斗机,试飞,机尾</div>
+</li>
+
+<li>
+<div class="c_title fl"><a href="2014-12/22/content_34375395.htm" target="_blank">他们是保卫澳门安宁的特战尖兵</a></div>
+
+<div class="c_time fr">2014-12-22 09:05:36</div>
+
+<div class="c_doc"><img src="http://images.china.cn/attachement/jpg/site1000/20141222/002564baeb7d1601b49f4d.jpg" width="180" class="fl" alt="他们是保卫澳门安宁的特战尖兵"/>特种连是驻澳门部队一支特殊分队，担负着特种侦察、要点破袭、斩首夺控、反恐维稳等任务，是关键时刻部队行动的“尖刀”。</div>
+
+<div class="c_keywords fl">特种连,澳门部队,特种侦察,要点破袭</div>
+</li>
+
+<li>
+<div class="c_title fl"><a href="http://news.china.com.cn/2014-12/22/content_34376003.htm" target="_blank">美媒不信飞天1号火箭民用 称有东风31导弹影子</a></div>
+
+<div class="c_time fr">2014-12-22 09:04:11</div>
+
+<div class="c_doc"><img src="http://images.china.cn/attachement/jpg/site1000/20141222/7427ea2109511601b37662.jpg" width="180" class="fl" alt="美媒不信飞天1号火箭民用 称有东风31导弹影子"/>“飞天一号”固体运载火箭在珠海航展上首次亮相，其可能具有军事背景并执行军事任务。这种火箭以一辆加长半拖车为底盘，能够将300公斤(660磅)物体送入低地轨道。</div>
+
+<div class="c_keywords fl">飞天一号,航展,运载火箭,珠海航展</div>
+</li>
+
+<li>
+<div class="c_title fl"><a href="2014-12/22/content_34374813.htm" target="_blank">军方现役红二代将领身世揭秘 父子上将战功赫赫</a></div>
+
+<div class="c_time fr">2014-12-22 07:33:34</div>
+
+<div class="c_doc">刘源父亲为刘少奇，中国共产党和中华人民共和国的主要领导人之一，中国杰出的革命家、政治家和理论家。刘源先从政，后从军。从政期间，历任河南省郑州市副市长，河南省副省长。进入军界后，历任武警总部副政委，解放军军事科学院政委等职。2011年1月19日，出任解放军总后勤部政委。</div>
+
+<div class="c_keywords fl">中国,解放军,将领,张宗逊,刘华清</div>
+</li>
+</ul>
+
+<div width="100%" id="autopage">
+<center>&#160;&#160; <a href="node_7207700_8.htm">上一页</a>&#160;&#160; <a href="node_7207700_4.htm">4</a>&#160;&#160; <a href="node_7207700_5.htm">5</a>&#160;&#160; <a href="node_7207700_6.htm">6</a>&#160;&#160; <a href="node_7207700_7.htm">7</a>&#160;&#160; <a href="node_7207700_8.htm">8</a>&#160;&#160; <span>9</span>&#160;&#160;</center>
+
+<br/>
+<br/>
+</div>
+
+<!--end 8241889-0-9-->
+</div>
+
+<div class="w380 fr"><!--begin 8241890-7207708-2--><iframe id="rightIfr" src="node_7207708.htm" width="100%" height="2480" scrolling="no" marginheight="0" frameborder="0"></iframe><!--end 8241890-7207708-2-->
+</div>
+</div>
+
+<!--begin 8241891-7207706-2--><div class="footerBox">
+    <iframe id="footerIfr" src="node_7207706.htm" width="100%" height="350" scrolling="no" marginheight="0" frameborder="0"></iframe>
+  </div><!--end 8241891-7207706-2-->
+<script type="text/javascript" src="http://images.china.cn/images1/ch/2014military/second.js">
+</script>
+
+<script type="text/javascript">
+<!--
+  /*300*250，创建于2013-11-20，右下角弹出广告*/
+  var cpro_id = "u1415887";
+-->
+</script>
+
+<script src="http://cpro.baidustatic.com/cpro/ui/f.js" type="text/javascript">
+</script>
+</body>
+</html>

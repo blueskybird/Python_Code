@@ -1,0 +1,12 @@
+from sklearn import neighbors
+from sklearn import datasets
+import numpy as np
+
+knn = neighbors.KNeighborsClassifier(3)
+
+x = [[0,1,1,1],[1,0,0,0],[1,1,1,1]]
+y = [0,1,2]
+
+knn.fit(x, y)
+ 
+print knn.predict_proba([[0.5,0,1.9,12222]])

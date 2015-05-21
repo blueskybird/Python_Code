@@ -1,0 +1,11 @@
+from sklearn import neighbors
+import numpy as np
+
+knn = neighbors.KNeighborsClassifier(3)
+
+x = [[0,0,0],[1,1,1],[2,2,2]]
+y = [0,1,2]
+
+knn.fit(x, y)
+
+print knn.predict([[0,0,0]])

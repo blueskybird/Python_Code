@@ -1,0 +1,52 @@
+# -*- coding: utf-8 -*-
+
+import os
+
+class FeaturnGongXian:
+    
+    def __init__(self):
+        self.dir = []
+        self.features = []
+        self.gongxian = []
+        pass
+    
+    def return_filedir(self, path):
+        '''
+        返回文件下的子文件夹目录，代表不同的类别
+        '''
+        for parent, dirnames, filenames in os.walk(path):
+            for dirname in dirnames:
+                self.dir.append(os.path.join(parent, dirname))
+        if self.dir == []:
+            self.dir.append(path)
+        return self.dir
+    
+    def return_features(self, path):
+        '''
+        返回所有特征的列表
+        '''
+        f = open(path, 'r')
+        lines = f.readline()
+        while lines:
+            lines_split = lines.split(' ')
+            self.features.append(lines_split[0])
+            lines = f.readline()
+        f.close()
+        return self.features
+    
+    def return_featurnes_gongxianjuzhen(self):
+        '''
+        返回共现特征的矩阵
+        '''
+        pass
+
+
+
+if __name__ == '__main__':
+    files_path = r'F:\kuaipan\short_text_data\xinlangweibo'
+    features_path = r'F:\kuaipan\short_text_data\xinlangweibofeatures.txt'
+    
+    a = FeaturnGongXian()
+    print a.return_filedir(files_path)
+    for i in a.return_features(features_path):
+        print i

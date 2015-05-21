@@ -1,0 +1,62 @@
+# -*- coding: utf-8 -*-
+
+from sklearn import neighbors
+from sklearn import datasets
+import numpy as np
+from featurevec import *
+
+
+# train data
+rootdir = r'F:\kuaipan\short_text_data\xinlangweibo'
+fd = FileDir(rootdir)
+file_folders = fd.return_filedir()
+
+fv = FeatureVec()
+ 
+means = []
+classnum = []
+
+lena = len(file_folders)
+for i in range(lena):
+    v = fv.return_feature_vec(file_folders[i])
+    for j in v:
+        means.append(j)
+        classnum.append(i)
+print len(means), len(classnum), lena
+
+
+knn = neighbors.KNeighborsClassifier(lena)
+
+# x = [[0, 1, 1, 1], [0, 0, 0, 0], [0, 0, 0, 0], [1, 1, 1, 1], [1, 1, 1, 1]]
+# y = [0, 1, 1, 2, 2]
+# knn.fit(x, y)
+
+knn.fit(means, classnum)
+
+
+#test data
+# rootdir_test=r'/home/lsh/Desktop/xilangweibo_test'
+rootdir_test = r'F:\kuaipan\short_text_data\xilangweibo_test'
+fd = FileDir(rootdir_test)
+file_folders_ts = fd.return_filedir()
+
+fv = FeatureVec()
+ 
+means_test = []
+classnum_test=[]
+
+lena=len(file_folders_ts)
+for i in range(lena):
+    v=fv.return_feature_vec(file_folders_ts[i])
+    for j in v:
+        means_test.append(j)
+        classnum_test.append(i)
+
+# p = [[0, 1, 1, 1]]
+# 
+# print knn.predict(p)
+# print knn.predict_proba(p)
+
+print knn.predict(means_test)
+print knn.predict_proba(means_test)
+print 'end'

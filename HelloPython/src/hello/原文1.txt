@@ -1,0 +1,955 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<!--STATUS OK-->
+<meta http-equiv=Content-Type content="text/html; charset=gb2312">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<link rel="dns-prefetch" href="//ns0.bdstatic.com">
+<link rel="dns-prefetch" href="//ns1.bdstatic.com">
+
+<title>百度新闻搜索——全球最大的中文新闻平台</title>
+<meta name="description" content="百度新闻是包含海量资讯的新闻服务平台，真实反映每时每刻的新闻热点。您可以搜索新闻事件、热点话题、人物动态、产品资讯等，快速了解它们的最新进展。" >
+
+<script type="text/javascript" src="http://news.baidu.com/resource/js/usermonitor.js?v=1.1"></script>
+
+
+<script type="text/javascript" src="http://ns0.bdstatic.com/static/widget/common/base_js_include/base_js_include_07d218e7.js"></script>
+<script type="text/javascript">
+F._fileMap({'http://ns0.bdstatic.com/static/widget/common/framework_static_include/framework_static_include_7256f561.js' : ['/static/common/lib/magic/Background/Background.js',
+'/static/common/lib/magic/Base/Base.js',
+'/static/common/lib/magic/magic.js',
+'/static/common/lib/tangram/base/base.js',
+'/static/common/lib/magic/control/Dialog/Dialog.js',
+'/static/common/lib/magic/control/Layer/Layer.js',
+'/static/common/lib/magic/control/control.js',
+'/static/common/lib/magic/Dialog/Dialog.js',
+'/static/common/lib/magic/Mask/Mask.js',
+'/static/common/lib/magic/control/Tab/Tab.js',
+'/static/common/lib/magic/_query/_query.js',
+'/static/common/lib/magic/setup/setup.js',
+'/static/common/lib/magic/setup/tab/tab.js']});
+</script>
+
+<script type="text/javascript">
+F._fileMap({'http://ns0.bdstatic.com/static/widget/common/module_static_include/module_static_include_73405031.js' : ['/static/widget/common/favorite/favorite.js',
+'/static/widget/common/searchbox/searchbox.js',
+'/static/common/ui/jquery/jquery.js',
+'/static/common/ui/vs/ContentPlayer/ContentPlayer.js',
+'/static/common/ui/vs/DynamicList/DynamicList.js',
+'/static/common/ui/vs/ScrollView/ScrollView.js',
+'/static/common/ui/vs/citylist/citylist.js',
+'/static/common/ui/vs/clickMonitor/clickMonitor.js',
+'/static/common/ui/vs/delayload/delayload.js',
+'/static/common/ui/vs/enterState/enterState.js',
+'/static/common/ui/vs/observer/observer.js',
+'/static/common/ui/vs/slider/slider.js',
+'/static/common/ui/vs/suggestion/suggestion.js',
+'/static/common/ui/vs/utils/utils.js',
+'/static/common/ui/vs/vs.js']});
+</script>
+<link type="text/css" rel="stylesheet" href="http://ns1.bdstatic.com/static/widget/common/module_static_include/module_static_include_d27ad06f.css"/>
+
+<script type="text/javascript">F._fileMap({'http://ns0.bdstatic.com/static/mil/focusmil/focusmil/focusmil_e9697c88.js' : ['__virsul__']});F.use('__virsul__');</script><link href="http://ns1.bdstatic.com/static/mil/focusmil/focusmil/focusmil_5b44ba68.css" rel="stylesheet" type="text/css"/>
+
+</head>
+<body>
+    <!--favorite-->
+    
+
+<div id="favoriteTips" style="display: none;"></div>
+<script language="javascript" type="text/javascript">
+F.use("/static/widget/common/favorite/favorite.js", function(favorite) {
+    favorite('favoriteTips');
+});
+</script>
+
+
+
+    <!--events-->
+    <!--userbar-->
+    <div id="usrbar" alog-group="userbar" alog-alias="hunter-userbar-start"></div>
+
+    
+<div id="headerwrapper">
+
+
+	<div id="header" alog-group="header" alog-alias="hunter-header-start">
+  		<!--顶部搜索框-->
+		
+			
+<form action="http://news.baidu.com/ns" name="fbaidu" class="sbox">
+	<table class="sbox" alog-group="search-box">
+		<tr>
+            <td class="logo">
+                <div class="logo">
+                    <a href="http://news.baidu.com/view.html">
+                        <!--ie6下使用带有背景色的logo,其余浏览器使用透明背景的logo-->
+                        <!--[if !IE]><!--><img src="/resource/img/logo_news_276_88.png?date=20150104" alt="百度新闻" height="46px" width="137px"><!--<![endif]-->
+                        <!--[if IE 6]><img src="/resource/img/logo_news_276_88_for_ie6.png" alt="百度新闻" height="46px" width="137px"><![endif]-->
+                    </a>
+                </div>
+                <div class="date"><!--datebegin--><!--dateend--></div>
+            </td>
+            <td class="search">
+				<div class="tab"><span class="cur">新闻</span><a href="http://www.baidu.com/" title='web' mon="col=502&pn=0" onclick="queryTab(this);">网页</a><a href="http://tieba.baidu.com/" title="tieba" mon="col=502&pn=1" onclick="queryTab(this);">贴吧</a><a href="http://zhidao.baidu.com/" title="zhidao" mon="col=502&pn=2" onclick="queryTab(this);">知道</a><a href="http://music.baidu.com/" title="music" mon="col=502&pn=3" onclick="queryTab(this);">音乐</a><a href="http://image.baidu.com/" title="image" mon="col=502&pn=4" onclick="queryTab(this);">图片</a><a href="http://v.baidu.com/" title="video" mon="col=502&pn=5" onclick="queryTab(this);">视频</a><a href="http://map.baidu.com/" title="map" mon="col=502&pn=6" onclick="queryTab(this);">地图</a><a href="http://baike.baidu.com/" title="baike" mon="col=502&pn=7" onclick="queryTab(this);">百科</a><a href="http://wenku.baidu.com/" title="wenku"  mon="col=502&pn=8" onclick="queryTab(this);">文库</a></div>
+				<table>
+                    <tr>
+                        <td class="box"><div id="sugarea"><span class="s_ipt_wr" id="s_ipt_wr"><input class="word" id="ww" name="word" size="42"  maxlength="100" tabindex="1"></span><span class="s_btn_wr"><input class="btn" type="submit" value="百度一下" onmousedown="this.className='btn s_btn_h'" onmouseout="this.className='btn'"></span></div></td>
+                        <td class="help"><a href="http://www.baidu.com/search/news_help.html">帮助</a><span class="sep">|</span><a href="http://news.baidu.com/advanced_news.html">高级搜索</a><span class="sep">|</span><a href="http://news.baidu.com/pianhao.html">设置</a></td>
+                    </tr>
+                </table>
+                <!--ecombegin--><!--ecomend-->
+                <p class="search-radios">
+					<input type="radio" name="tn" value="news" checked="checked" id="news" style="display: none;">
+                    <label for="news" class="checked">新闻全文</label>
+					<input type="radio" name="tn" value="newstitle" id="newstitle" style="display: none;">
+                    <label for="newstitle" class="not-checked">新闻标题</label>
+                </p>
+				<input type="hidden" name="from" value="news">
+                <input type="hidden" name="cl" value="2">
+
+                <input type="hidden" name="rn" value="20">
+                <input type="hidden" name="ct" value="1">
+            </td></tr>
+	</table>
+</form>
+
+<script type="text/javascript">
+    F.use(["/static/common/lib/tangram/base/base.js","/static/widget/common/searchbox/searchbox.js","/static/common/ui/vs/suggestion/suggestion.js"], function(baidu,searchbox,suggestion){
+        baidu.dom.ready(function(){
+            searchbox();
+            if (navigator.cookieEnabled && !/sug?=0/.test(document.cookie)){
+                    suggestion();
+            }
+
+        });
+    });
+</script>
+<script type="text/javascript">F.module('/static/widget/common/searchbox/searchradio.js', function(require, exports){
+/*-----[ /widget/common/searchbox/searchradio.js ]-----*/
+var $ = require('/static/common/ui/jquery/jquery.js');
+
+var searchRadio = function() {
+	$(function() {
+        $('.search-radios').delegate('label', 'click', function() {
+            var $this = $(this);
+
+            if (willChange($this)) {
+                changeBackground($this);
+            }
+            // var checkedId = $(this).attr('for');
+            // var notCheckedId = getNotCheckedId(checkedId);
+
+            // changeCheckedAttr(checkedId, notCheckedId);
+            // changeCheckImg(checkedId, notCheckedId);
+        });
+
+        function willChange($this) {
+            var isChecked = $this.hasClass('checked');
+            var change = false;
+
+            if (!isChecked) {
+                change = true;
+            }
+
+            return change;
+        }
+
+        function changeBackground($this) {
+            var $anotherBtn = getAnotherBtn($this);
+
+            $this
+                .removeClass('not-checked')
+                .addClass('checked');
+
+            $anotherBtn
+                .removeClass('checked')
+                .addClass('not-checked');
+        }
+
+        function getAnotherBtn($this) {
+            var thisRadioId = $this.attr('for');    // label对应的radio的id
+            var $anotherBtn;
+
+            if (thisRadioId.indexOf('newstitle') > -1) {
+                $anotherBtn = $('.search-radios label[for="news"]');   
+            } else {
+                $anotherBtn = $('.search-radios label[for="newstitle"]');
+            }
+
+            return $anotherBtn;
+        }
+
+        // function getNotCheckedId(checkedId) {
+        //     var mark = checkedId.search('newstitle');
+
+        //     if (mark > -1) 
+        //         return 'news';
+        //     else 
+        //         return 'newstitle';
+        // }
+
+        // function changeCheckedAttr(checkedId, notCheckedId) {
+        //     $('#' + checkedId).attr('checked', 'checked');
+        //     $('#' + notCheckedId).removeAttr('checked');
+        // }
+
+        // function changeCheckImg(checkedId, notCheckedId) {
+        //     $('label[for="' + checkedId + '"]').children().eq(0).css('display', '');
+        //     $('label[for="' + checkedId + '"]').children().eq(1).css('display', 'none');
+            
+        //     $('label[for="' + notCheckedId + '"]').children().eq(0).css('display', 'none');
+        //     $('label[for="' + notCheckedId + '"]').children().eq(1).css('display', '');
+        // }
+    });
+};
+
+exports = searchRadio;
+return exports;}, ['/static/common/ui/jquery/jquery.js']);
+F.module('/static/widget/common/searchbox/searchboxActive.js', function(require, exports){
+/*-----[ /widget/common/searchbox/searchboxActive.js ]-----*/
+var $ = require('/static/common/ui/jquery/jquery.js');
+
+// 监听搜索框的focus状态，改变搜索框外层的边框样式
+var searchboxActive = function() {
+
+	var $searchbox = $('#ww');
+	var $searchboxWrap = $('#s_ipt_wr');
+
+	$searchbox
+		.on('focus', function() {
+			$searchboxWrap.addClass('focus-searchbox');
+		})
+		.on('blur', function() {
+			$searchboxWrap.removeClass('focus-searchbox');
+		});
+
+};
+
+exports = searchboxActive;
+
+return exports;}, ['/static/common/ui/jquery/jquery.js']);
+
+    F.use(['/static/widget/common/searchbox/searchradio.js', '/static/widget/common/searchbox/searchboxActive.js'], function(searchRadio, searchboxActive) {
+        searchRadio();
+        searchboxActive();
+    });
+</script>
+
+
+
+		
+		<!--默认首页导航-->
+		
+    
+<div id="menu" alog-group="military-menu">
+    <div id="channel-shanghai" class="clearfix"  style="display:none" >
+        <div class="menu-list" style="width:947px;">
+            <ul>
+                <li ><a href="http://news.baidu.com/view.html">首页</a></li>
+                <li><a href="http://baijia.baidu.com/" id="nav-hot-link" target="_blank">百家</a></li>
+                <li ><a href="http://sh.news.baidu.com/">上海</a></li>
+                <li ><a href="http://internet.baidu.com/">互联网</a></li>
+                <li ><a href="http://jian.news.baidu.com/">推荐</a></li>
+                <li ><a href="http://yule.baidu.com/">娱乐</a></li>
+                <li  class="current"><a href="http://mil.news.baidu.com/">军事</a></li>
+                <li ><a href="http://finance.baidu.com/">财经</a></li>
+                <li ><a href="http://sports.baidu.com/">体育</a></li>
+                <li ><a href="http://guonei.news.baidu.com/">国内</a></li>
+                <li ><a href="http://guoji.news.baidu.com/">国际</a></li>
+                <li ><a href="http://shehui.news.baidu.com/">社会</a></li>
+                <li ><a href="http://tech.baidu.com/">科技</a></li>
+                <li ><a href="http://lady.baidu.com/">女人</a></li>
+                <li ><a href="http://auto.baidu.com/">汽车</a></li>
+                <li ><a href="http://fangchan.news.baidu.com/">房产</a></li>
+                <li ><a href="http://youxi.news.baidu.com/">游戏</a></li>
+                <li ><a href="http://jiaoyu.news.baidu.com/">教育</a></li>
+                <li ><a href="http://shipin.news.baidu.com/">视频</a></li>
+            </ul>
+        </div>
+        <div class="menu-ext" style="width:37px;">
+            <ul>
+                <li><a href="http://news.hao123.com/?src=baidunews_1016" mon="toptab=newssite&resouci=1" style="margin-left:-10px;">名站</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="channel-all" class="clearfix" >
+        <div class="menu-list">
+            <ul>
+                <li ><a href="http://news.baidu.com/view.html">首页</a></li>
+                <li><a href="http://baijia.baidu.com/" id="nav-hot-link" target="_blank">百家</a></li>
+                <li ><a href="http://internet.baidu.com/">互联网</a></li>
+                <li ><a href="http://jian.news.baidu.com/">推荐</a></li>
+                <li ><a href="http://yule.baidu.com/">娱乐</a></li>
+                <li  class="current"><a href="http://mil.news.baidu.com/">军事</a></li>
+                <li ><a href="http://finance.baidu.com/">财经</a></li>
+                <li ><a href="http://sports.baidu.com/">体育</a></li>
+                <li ><a href="http://guonei.news.baidu.com/">国内</a></li>
+                <li ><a href="http://guoji.news.baidu.com/">国际</a></li>
+                <li ><a href="http://shehui.news.baidu.com/">社会</a></li>
+                <li ><a href="http://tech.baidu.com/">科技</a></li>
+                <li ><a href="http://lady.baidu.com/">女人</a></li>
+                <li ><a href="http://auto.baidu.com/">汽车</a></li>
+                <li ><a href="http://fangchan.news.baidu.com/">房产</a></li>
+                <li ><a href="http://youxi.news.baidu.com/">游戏</a></li>
+                <li ><a href="http://jiaoyu.news.baidu.com/">教育</a></li>
+                <li ><a href="http://shipin.news.baidu.com/">视频</a></li>
+            </ul>
+        </div>
+        <div class="menu-ext">
+            <ul>
+                <li><a href="http://news.hao123.com/?src=baidunews_1016" mon="toptab=newssite&resouci=1">新闻名站</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+	</div>
+    
+</div>
+
+
+	<div id="body" alog-alias="b">
+	<!--主体-->
+	
+    
+    <script type="text/javascript" language="javascript">
+        F.use('/static/common/ui/vs/clickMonitor/clickMonitor.js', function(clickMonitor){
+            clickMonitor.init('ONE_LEVEL_HOT', 'c=mil&cy=0');
+        });
+    </script>
+    
+    <!--头部图片轮播-->
+    
+<div class="column clearfix" id="col_toparea" alog-group="log-mil-toparea">
+    
+    <div class="toparea-carousel" alog-group="alog-group=log-carousel">
+	<div class="imgplayer clearfix" id="imgplayer">
+        <div id="imgplayer-control">
+        <a href="javascript:void(0);" mon="col=carousel&pos=ctr_l&ct=1&pn=0" id="imgplayer-prev"></a>
+        <a href="javascript:void(0);" mon="col=carousel&pos=ctr_r&ct=1&pn=0" id="imgplayer-next"></a>
+        </div>
+		<div class="imgview" id="imgView">
+			<a href="" target="_blank"><img src="http://news.baidu.com/iphone/img/loading_3.gif" class="firstimg" alt=""></a>
+		</div>
+        <div class="imgnav-mask"></div>
+		<div class="imgnav" id="imgNav">
+            			<a class="navbtn" index="3" mon="col=carousel&pos=dots&a=9pn=3" href="javascript:void(0)">3</a>
+            			<a class="navbtn" index="2" mon="col=carousel&pos=dots&a=9pn=2" href="javascript:void(0)">2</a>
+            			<a class="navbtn" index="1" mon="col=carousel&pos=dots&a=9pn=1" href="javascript:void(0)">1</a>
+                    </div>
+		<div class="imgtit" id="imgTitle">
+			<a href="" target="_blank"></a>
+		</div>
+	</div>
+    </div>
+    
+    <script type="text/javascript" language="javascript">
+        F.use(["/static/common/lib/tangram/base/base.js", "/static/common/ui/vs/ContentPlayer/ContentPlayer.js"], function(T, I) {
+        var G = T.dom.g;
+        var on = T.event.on;
+        var imgList = [];
+        var cpOptions_1 = {
+        getBtns: function(){
+            var a, btns; 
+                btns = G('imgNav').getElementsByTagName('a');
+                a = [];
+                for(var i=btns.length - 1; i>=0; i--){
+                    a.push(btns[i]);
+                }
+                return a;
+            },
+            mainViewContainer: G('imgView'),
+            prevBtn: G('imgplayer-prev'),
+            nextBtn: G('imgplayer-next'),
+            changeAction: 'mouseover',
+            subViewContainer: G('imgTitle'),
+            style: {on: 'active', off: ''},
+            mainViewTpl: '<a href="#{url}" target="_blank" mon="col=carousel&pos=img&pn=#{index}"><img src="#{imgUrl}"></a>',
+            subViewTpl: '<a href="#{url}" target="_blank" mon="col=carousel&pos=title&a=9&ct=1&pn=#{index}"><strong>#{title}</strong>#{abs}</a>',
+            curIndex: 0,
+            data: [],
+            interval: 5000
+            };
+        
+                                                    cpOptions_1.data.push({
+            "index": 1,
+                "title": "美传奇华裔F15飞行员退役 曾击落两架米格29",
+                "url": "http:\/\/military.china.com.cn\/2015-01\/11\/content_34528293.htm",
+                "imgUrl": "http:\/\/images.china.cn\/attachement\/jpg\/site1000\/20150111\/7427ea210d49161c12475d.jpg",
+                "abs": "在科索沃战争中击落两架米格-29的华裔飞行员杰夫?黄在去年10月退役。最后官"
+            });
+            imgList.push({"url":"http:\/\/military.china.com.cn\/2015-01\/11\/content_34528293.htm"});
+                                                        cpOptions_1.data.push({
+            "index": 2,
+                "title": "央视曝光武直10 操纵杆上全是英文遭质疑(图)",
+                "url": "http:\/\/military.china.com.cn\/2015-01\/11\/content_34527931.htm",
+                "imgUrl": "http:\/\/images.china.cn\/attachement\/jpg\/site1000\/20150111\/7427ea210d49161c062614.jpg",
+                "abs": "近日，央视新闻节目对陆航“风雷”飞行表演队队长、直升机特级飞行员李魁元"
+            });
+            imgList.push({"url":"http:\/\/military.china.com.cn\/2015-01\/11\/content_34527931.htm"});
+                                                        cpOptions_1.data.push({
+            "index": 3,
+                "title": "伊朗试射新型反舰导弹 外观与中国C801几乎一个样",
+                "url": "http:\/\/military.china.com.cn\/2015-01\/11\/content_34529069.htm",
+                "imgUrl": "http:\/\/images.china.cn\/attachement\/jpg\/site1000\/20150111\/7427ea210d49161c1ce908.jpg",
+                "abs": "近日，伊朗在一次演习中从海岸处发射了“努尔”反舰导弹。尽管伊朗并未公开"
+            });
+            imgList.push({"url":"http:\/\/military.china.com.cn\/2015-01\/11\/content_34529069.htm"});
+                            
+           var index = 0 ; 
+           var url = location.href.substr(location.href.indexOf("?")+1).split("&");
+           var key ;
+           for(var i = 0 ; i < url.length ; i++){
+               var tmp = url[i].split("=");
+               if(tmp&&tmp.length>0&&tmp[0]=="lb"){
+                   key = tmp[1];
+               }
+               }
+           for(var p in imgList){
+               if(imgList[p].url == key){
+                   index = p ;
+               }
+           }
+           cpOptions_1.curIndex = index;
+           var cp_1 = new I.Model(cpOptions_1);
+
+           on(window, 'load', function(){
+               cp_1.play(index+1);
+           });
+
+           var controlers = baidu.dom.query('#imgNav a');
+           baidu.each(controlers,function(item,i){
+                baidu.on(item,'mouseover',function(e){
+                    UserMonitor.send(e, 6, {c : "mil", col: "carousel", ct: "1", m: "11", pn: 8-i, pos : "dots", ac : "mouseover"});
+                    window.alog && alog("monkey.fire", "record", {
+                        type: "click",
+                        target: item
+                    }); 
+                });
+            });
+        });
+           
+    </script>
+    
+
+
+
+    <div class="l-right-col">
+        <div class="mod">
+            <div class="hd"><h3><a href="http://mil.news.baidu.com/n?cmd=4&class=mil&pn=1" target="_blank">即时新闻</a><span class="dec">INSTANT NEWS</span></h3></div>
+            <div class="bd">
+                <div id="instant-news">
+                    <ul class="ulist mix-ulist">
+                                                                        <li><a href="http://www.cjxtv.com/news/guonei/3272.html" class="title" target="_blank" mon="col=12&pn=1">昆明机场航班延误 乘客强行翻开逃生门</a></li>
+                                                                                                <li><a href="http://finance.sina.com.cn/roll/20150111/105721270384.shtml" class="title" target="_blank" mon="col=12&pn=2">天津机场强化枢纽功能定位 </a></li>
+                                                                                                <li><a href="http://news.sina.com.cn/c/2015-01-11/104931385751.shtml" class="title" target="_blank" mon="col=12&pn=3">台湾防务部门月历破尺度 女士官泳装入镜(图)</a></li>
+                                                                                                <li><a href="http://world.people.com.cn/n/2015/0111/c1002-26363071.html" class="title" target="_blank" mon="col=12&pn=4">朝愿暂停核试换取美韩不军演 美称停止威胁</a></li>
+                                                                                                <li><a href="http://news.enorth.com.cn/system/2015/01/11/012396318.shtml" class="title" target="_blank" mon="col=12&pn=5">空客大学生航空赛 六支中国团队晋级</a></li>
+                                                                                                <li><a href="http://mil.gmw.cn/2015-01/11/content_14473273.htm" class="title" target="_blank" mon="col=12&pn=6">解放军组建“海狼突击队”填补两栖特战空白 </a></li>
+                                                                                                <li><a href="http://culture.gmw.cn/2015-01/11/content_14473091.htm" class="title" target="_blank" mon="col=12&pn=7">-20℃严寒下的越野对抗赛 官兵成白眉大侠（组</a></li>
+                                                                                                <li><a href="http://news.k618.cn/kx/201501/t20150111_5810525.html" class="title" target="_blank" mon="col=12&pn=8">美称一旦开战中国仅靠三盟国不够 将遭敌国封</a></li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+    <!-- start 头部焦点-->
+    
+<div class="column clearfix" id="col_focus" alog-group="log-milnews-focus">
+        <div class="l-left-col">
+            
+<div class="column-title" >
+            <div class="column-title-border">
+                                    <h2>焦点新闻<span class="cname">FOCAL NEWS</span></h2>
+                
+                                
+            
+            </div>
+    </div>
+
+
+            
+            <div class="b-left" >
+            
+
+<ul class="ulist "  >
+                                    <li class="bold-item">            <a href="http://news.gmw.cn/newspaper/2015-01/11/content_103638675.htm" mon="col=1&amp;a=2&pn=1" target="_blank">搭乘“蛟龙”号下潜 </a></li>
+							    			                        
+                                        <li>            <a href="http://world.people.com.cn/n/2015/0111/c157278-26362946.html" mon="col=1&amp;a=2&pn=2" target="_blank">俄国防部：莫斯科郊区将增S400导弹防止空中袭击</a></li>
+							    			                        
+                                        <li>            <a href="http://finance.sina.com.cn/roll/20150111/105721270384.shtml" mon="col=1&amp;a=2&pn=3" target="_blank">天津机场强化枢纽功能定位 </a></li>
+							    			                        
+                                        <li>            <a href="http://www.chinanews.com/gn/2015/01-10/6955433.shtml" mon="col=1&amp;a=2&pn=4" target="_blank">专家称双边合作是国际反恐最有效形式 </a></li>
+							    			                        
+                                        <li>            <a href="http://www.chinanews.com/gj/2015/01-10/6955757.shtml" mon="col=1&amp;a=2&pn=5" target="_blank">澳航获评全球最安全的航空公司 </a></li>
+							    			                        
+                                        <li>            <a href="http://finance.sina.com.cn/chanjing/gsnews/20150111/023921269381.shtml" mon="col=1&amp;a=2&pn=6" target="_blank">东航1航班延误4小时起飞 官方超载说法遭乘客质疑</a></li>
+							    					</ul>
+                    <ul class="ulist " >
+				    			                        
+                                        <li class="bold-item">            <a href="http://news.dahe.cn/2015/01-10/104074091.html" mon="col=1&amp;a=2&pn=7" target="_blank">中国援利医疗队培训利方人员逾1500人 </a></li>
+							    			                        
+                                        <li>            <a href="http://www.chinanews.com/gj/2015/01-10/6955277.shtml" mon="col=1&amp;a=2&pn=8" target="_blank">防卫费用连续三年增加 民众担忧日本走向军火大国 </a></li>
+							    			                        
+                                        <li>            <a href="http://news.mod.gov.cn/headlines/2015-01/11/content_4563492.htm" mon="col=1&amp;a=2&pn=9" target="_blank">中美两军将举行人道主义救援减灾联合实兵演练和..</a></li>
+							    			                        
+                                        <li>            <a href="http://china.cankaoxiaoxi.com/2015/0111/624863.shtml" mon="col=1&amp;a=2&pn=10" target="_blank">外媒:发射基地建在景区 中国秘密太空计划更透明</a></li>
+							    			                        
+                                        <li>            <a href="http://tech.gmw.cn/newspaper/2015-01/11/content_103639102.htm" mon="col=1&amp;a=2&pn=11" target="_blank">杨邦宪大败水西罗闽 播州地位日益凸显 </a></li>
+							    			                        
+                                        <li>            <a href="http://world.cankaoxiaoxi.com/2015/0111/624938.shtml" mon="col=1&amp;a=2&pn=12" target="_blank">外媒：俄与北约空前对立 冷战时期也未曾出现</a></li>
+							    			                                    <!--MONITOR INTERNEWS_FOCUS OK 12 HOTAREA-->
+            
+</ul>
+
+
+
+        </div>
+    
+
+            
+<div class="ilist">
+    <ul>
+                                                            <li><a href="http://www.sd.xinhuanet.com/tpzx/2015-01/11/c_1113950014.htm" mon="col=2&amp;a=12&pn=1" target="_blank"><img r_src="http://t2.baidu.com/it/u=http%3A%2F%2Fwww.sd.xinhuanet.com%2Ftpzx%2F2015-01%2F11%2F1113950014_14209395202521n.jpg&amp;fm=30"/><span class="title">中国首名女潜航员学员下潜归来 </span></a></li>
+                            
+
+                                                                    <li><a href="http://www.jfdaily.com/shanghai/new/201501/t20150110_1133054.html" mon="col=2&amp;a=12&pn=2" target="_blank"><img r_src="http://t2.baidu.com/it/u=http%3A%2F%2Fimages.jfdaily.com%2Fjiefang%2Fshanghai%2Fnew%2F201501%2FW020150110535695015274.png&amp;fm=30"/><span class="title">东航一飞机遭乘客强行打开应急出口 航</span></a></li>
+                            
+
+                                                                
+
+                    </ul>
+</div>
+
+
+        </div>
+
+        <div class="l-right-col">
+            <div class="mod" id="focus-aside-video">
+                <div class="hd">
+                    <h3>军事视频<span class="dec">MILITARY NEWS</span></h3>
+                </div>
+                <div class="bd">
+                <div id="mil-video">
+                                    </div>
+                </div>
+            </div>
+
+        </div>
+
+</div>
+
+
+
+    <!--start 中国军情-->
+    
+    <div class="column clearfix" id="col_zgjq" alog-group="log-zgjq">
+        <div class="l-left-col">
+            
+<div class="column-title" >
+            <div class="column-title-border">
+                                                        <h2><a href="http://mil.news.baidu.com/n?cmd=1&class=zhongguojq&pn=1" target="_blank">中国军情</a><span class="cname">CHINA MILITARY</span></h2>
+                    <span class="more"><a href="http://mil.news.baidu.com/n?cmd=1&class=zhongguojq&pn=1" target="_blank">更多</a></span>
+                                    
+                                
+            
+            </div>
+    </div>
+
+
+            
+            <div class="b-left" >
+            
+
+<ul class="ulist "  >
+                                    <li class="bold-item">            <a href="http://www.aihami.com/a/dangjian/junshi/64980.html" mon="col=5&amp;a=2&amp;z=zhongguojq&pn=1" target="_blank">土耳其懊恼！中国FD2000防空导弹卖太快</a></li>
+							    			                        
+                                        <li>            <a href="http://www.aihami.com/a/dangjian/junshi/64977.html" mon="col=5&amp;a=2&amp;z=zhongguojq&pn=2" target="_blank">中美之间已经有了上百套作战方案 台将成导火索</a></li>
+							    			                        
+                                        <li>            <a href="http://news.k618.cn/kx/201501/t20150111_5810178.html" mon="col=5&amp;a=2&amp;z=zhongguojq&pn=3" target="_blank">实在太令人吃惊！中国南海人工岛数目太恐怖</a></li>
+							    			                        
+                                        <li>            <a href="http://www.aihami.com/a/dangjian/junshi/64974.html" mon="col=5&amp;a=2&amp;z=zhongguojq&pn=4" target="_blank">美称朝战时打中国空军所向披靡 打苏军寸步难行</a></li>
+							    			                        
+                                        <li>            <a href="http://www.aihami.com/a/dangjian/junshi/64971.html" mon="col=5&amp;a=2&amp;z=zhongguojq&pn=5" target="_blank">普京遭美陷害：解放军一号出手三招救下他</a></li>
+							    			                        
+                                        <li>            <a href="http://mil.gmw.cn/2015-01/11/content_14473273.htm" mon="col=5&amp;a=2&amp;z=zhongguojq&pn=6" target="_blank">解放军组建“海狼突击队”填补两栖特战空白 </a></li>
+							    					</ul>
+                    <ul class="ulist " >
+				    			                        
+                                        <li class="bold-item">            <a href="http://news.k618.cn/kx/201501/t20150111_5810525.html" mon="col=5&amp;a=2&amp;z=zhongguojq&pn=7" target="_blank">美称一旦开战中国仅靠三盟国不够 将遭敌国封锁</a></li>
+							    			                        
+                                        <li>            <a href="http://news.k618.cn/kx/201501/t20150111_5810522.html" mon="col=5&amp;a=2&amp;z=zhongguojq&pn=8" target="_blank">阿基诺三世极度不安：中国舰船靠近菲律宾海岸</a></li>
+							    			                        
+                                        <li>            <a href="http://news.k618.cn/kx/201501/t20150111_5810517.html" mon="col=5&amp;a=2&amp;z=zhongguojq&pn=9" target="_blank">越南服软：解放军一举动令阮富仲急赴北京示好</a></li>
+							    			                        
+                                        <li>            <a href="http://news.k618.cn/kx/201501/t20150111_5810504.html" mon="col=5&amp;a=2&amp;z=zhongguojq&pn=10" target="_blank">中国超级核航母开建！起飞方式让全球不敢相信</a></li>
+							    			                        
+                                        <li>            <a href="http://news.k618.cn/kx/201501/t20150111_5810503.html" mon="col=5&amp;a=2&amp;z=zhongguojq&pn=11" target="_blank">世界震惊！中国“巨兽”下水 比辽宁舰厉害7倍</a></li>
+							    			                        
+                                        <li>            <a href="http://news.k618.cn/kx/201501/t20150111_5810482.html" mon="col=5&amp;a=2&amp;z=zhongguojq&pn=12" target="_blank">APEC期间 日本叫嚣一周就能歼灭全部中国舰队</a></li>
+							    			                                    <!--MONITOR MIL_ZGJQ OK 12 HOTAREA-->
+            
+</ul>
+
+
+
+        </div>
+    
+
+            
+<div class="ilist">
+    <ul>
+                                                            <li><a href="http://www.aihami.com/a/dangjian/junshi/64980.html" mon="col=6&amp;a=12&amp;z=zhongguojq&pn=1" target="_blank"><img r_src="http://t2.baidu.com/it/u=http%3A%2F%2Fwww.aihami.com%2Fuploads%2Fallimg%2F150111%2F168-1501111059161X.jpg&amp;fm=30"/><span class="title">土耳其懊恼！中国FD2000防空导弹卖太快</span></a></li>
+                            
+
+                                                                    <li><a href="http://www.aihami.com/a/dangjian/junshi/64977.html" mon="col=6&amp;a=12&amp;z=zhongguojq&pn=2" target="_blank"><img r_src="http://t1.baidu.com/it/u=http%3A%2F%2Fwww.aihami.com%2Fuploads%2Fallimg%2F150111%2F169-150111104T5O6.jpg&amp;fm=30"/><span class="title">中美之间已经有了上百套作战方案 台将</span></a></li>
+                            
+
+                    </ul>
+</div>
+
+
+        </div>
+
+        <div class="l-right-col">
+            <div class="mod" id="zgjq-aside-news">
+                <div class="hd"><h3><a href="http://mil.news.baidu.com/n?cmd=1&class=taihaijj&pn=1" target="_blank">台海聚焦</a><span class="dec">TAIWAN FOCUSING</span></h3><a href="http://mil.news.baidu.com/n?cmd=1&class=taihaijj&pn=1" target="_blank" class="more"></a>
+                </div>
+                <div class="bd">
+                    <div id="thjj-news">
+                        <ul class="ulist mix-ulist"  style="margin-top:-9px">
+                                                                                                                                                                                                                                                                <li><a href="http://www.aihami.com/a/dangjian/junshi/64971.html" class="title" target="_blank" mon="col=7&a=9&z=taihaijj&pn=2">普京遭美陷害：解放军一号出手三招救下他</a></li>
+                                                                                                                                                                                                            <li><a href="http://news.k618.cn/kx/201501/t20150111_5810513.html" class="title" target="_blank" mon="col=7&a=9&z=taihaijj&pn=3">台湾情报战六大计划遭曝光 以备台登陆大陆作</a></li>
+                                                                                                                                                                                                            <li><a href="http://www.aihami.com/a/dangjian/junshi/64965.html" class="title" target="_blank" mon="col=7&a=9&z=taihaijj&pn=4">屏东出现致病性禽流感 请化学兵进行支援</a></li>
+                                                                                                                                                                                                            <li><a href="http://www.aihami.com/a/dangjian/junshi/64956.html" class="title" target="_blank" mon="col=7&a=9&z=taihaijj&pn=5">中国国人震惊 台湾竟主动提出要统一</a></li>
+                                                                                                                                                                                                            <li><a href="http://qz.fjsen.com/2015-01/11/content_15530835.htm" class="title" target="_blank" mon="col=7&a=9&z=taihaijj&pn=6">泉州新闻一周回顾第6期（1月4日—1月10日）（</a></li>
+                                                                                                                                                                                                            <li><a href="http://tw.people.com.cn/n/2015/0110/c104510-26360661.html" class="title" target="_blank" mon="col=7&a=9&z=taihaijj&pn=7">台首座防核爆防空洞曝光 为蒋介石密令设计(组</a></li>
+                                                                                                                                                                                                            <li><a href="http://news.k618.cn/kx/201501/t20150110_5809770.html" class="title" target="_blank" mon="col=7&a=9&z=taihaijj&pn=8">中美互有几百套作战方案 台湾或将是开战导火</a></li>
+                                                                                                                                                                                                            <li><a href="http://news.k618.cn/kx/201501/t20150110_5809761.html" class="title" target="_blank" mon="col=7&a=9&z=taihaijj&pn=9">国人震惊！可能爆发战争5个地方 中国竟占两个</a></li>
+                                                                                                                                                                                                            <li><a href="http://mil.cankaoxiaoxi.com/2015/0110/624186.shtml" class="title" target="_blank" mon="col=7&a=9&z=taihaijj&pn=10">外媒：中国两栖机械化步兵师兵力为何倍增？</a></li>
+                                                                                                                                                                                                            <li><a href="http://www.aihami.com/a/dangjian/junshi/64774.html" class="title" target="_blank" mon="col=7&a=9&z=taihaijj&pn=11">台湾想帮越南对抗解放军 俄罗斯泄露中国潜艇</a></li>
+                                                                                        <!--MONITOR MIL_THJJ OK 11 HOTAREA-->                                                </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ecom-ad" id="ecom_ad" style="margin-bottom:30px;text-align:center"></div>
+
+
+
+    <!-- start 国际军情-->
+    
+    <div class="column clearfix" id="col_guojijq" alog-group="log-guojijq">
+        <div class="l-left-col">
+            
+<div class="column-title" >
+            <div class="column-title-border">
+                                                        <h2><a href="http://mil.news.baidu.com/n?cmd=1&class=guojijq&pn=1" target="_blank">国际军情</a><span class="cname">WORLD MILITARY</span></h2>
+                    <span class="more"><a href="http://mil.news.baidu.com/n?cmd=1&class=guojijq&pn=1" target="_blank">更多</a></span>
+                                    
+                                
+            
+            </div>
+    </div>
+
+
+            
+            <div class="b-left" >
+            
+
+<ul class="ulist "  >
+                                    <li class="bold-item">            <a href="http://www.qianzhan.com/military/detail/275/150110-1f0261de_2.html" mon="col=8&amp;a=2&amp;z=guojijq&pn=1" target="_blank">解放军大校：东风-31导弹世界一流 民兵-3没优势</a></li>
+							    			                        
+                                        <li>            <a href="http://www.miercn.com/bdnews/201407/340557.html" mon="col=8&amp;a=2&amp;z=guojijq&pn=2" target="_blank">英皇家海军首位女舰长因与男下属恋爱被调离</a></li>
+							    			                        
+                                        <li>            <a href="http://news.k618.cn/kx/201501/t20150110_5809944.html" mon="col=8&amp;a=2&amp;z=guojijq&pn=3" target="_blank">美媒曝中国最危险导弹 竟然比东风导弹还厉害</a></li>
+							    			                        
+                                        <li>            <a href="http://www.aihami.com/a/dangjian/junshi/64971.html" mon="col=8&amp;a=2&amp;z=guojijq&pn=4" target="_blank">普京遭美陷害：解放军一号出手三招救下他</a></li>
+							    			                        
+                                        <li>            <a href="http://news.k618.cn/kx/201501/t20150111_5810504.html" mon="col=8&amp;a=2&amp;z=guojijq&pn=5" target="_blank">中国超级核航母开建！起飞方式让全球不敢相信</a></li>
+							    			                        
+                                        <li>            <a href="http://news.k618.cn/kx/201501/t20150111_5810503.html" mon="col=8&amp;a=2&amp;z=guojijq&pn=6" target="_blank">世界震惊！中国“巨兽”下水 比辽宁舰厉害7倍</a></li>
+							    					</ul>
+                    <ul class="ulist " >
+				    			                        
+                                        <li class="bold-item">            <a href="http://news.k618.cn/kx/201501/t20150111_5810468.html" mon="col=8&amp;a=2&amp;z=guojijq&pn=7" target="_blank">外媒：日本仍敌视中国或将向邻邦发起海空打击</a></li>
+							    			                        
+                                        <li>            <a href="http://news.k618.cn/kx/201501/t20150111_5810462.html" mon="col=8&amp;a=2&amp;z=guojijq&pn=8" target="_blank">美军五大惨败战役：朝鲜战争被志愿军击溃上榜</a></li>
+							    			                        
+                                        <li>            <a href="http://news.k618.cn/kx/201501/t20150111_5810459.html" mon="col=8&amp;a=2&amp;z=guojijq&pn=9" target="_blank">北京大怒：美阻挠韩军机赴华参加航展的内幕曝光</a></li>
+							    			                        
+                                        <li>            <a href="http://gx.people.com.cn/n/2015/0111/c350590-23512744.html" mon="col=8&amp;a=2&amp;z=guojijq&pn=10" target="_blank">中国版“标枪”：红箭12攻顶反坦克导弹操作照</a></li>
+							    			                        
+                                        <li>            <a href="http://www.aihami.com/a/dangjian/junshi/64959.html" mon="col=8&amp;a=2&amp;z=guojijq&pn=11" target="_blank">中国国产航母装备关键技术 西方各国眼红不已</a></li>
+							    			                        
+                                        <li>            <a href="http://www.qianzhan.com/military/detail/275/150110-3970464a.html" mon="col=8&amp;a=2&amp;z=guojijq&pn=12" target="_blank">解放军“拿下”苏-35战机内幕曝光 俄媒：明年将..</a></li>
+							    			                                    <!--MONITOR MIL_GUOJIJQ OK 12 HOTAREA-->
+            
+</ul>
+
+
+
+        </div>
+    
+
+            
+<div class="ilist">
+    <ul>
+                                                            <li><a href="http://www.miercn.com/bdnews/201407/337725.html" mon="col=9&amp;a=12&amp;z=guojijq&pn=1" target="_blank"><img r_src="http://g.hiphotos.baidu.com/news/pic/item/adaf2edda3cc7cd93f03c4123b01213fb90e91cb.jpg"/><span class="title">女王号航母出坞英重返航母俱乐部</span></a></li>
+                            
+
+                                                                    <li><a href="http://www.aihami.com/a/dangjian/junshi/64971.html" mon="col=9&amp;a=12&amp;z=guojijq&pn=2" target="_blank"><img r_src="http://t3.baidu.com/it/u=http%3A%2F%2Fwww.aihami.com%2Fuploads%2Fallimg%2F150111%2F169-1501111034364M.jpg&amp;fm=30"/><span class="title">普京遭美陷害：解放军一号出手三招救下</span></a></li>
+                            
+
+                                                                
+
+                                                                
+
+                                                                
+
+                                                                
+
+                    </ul>
+</div>
+
+
+        </div>
+
+        
+        <div class="l-right-col">
+            <div class="mod">
+                <div class="hd"><h3>热门新闻<span class="dec">HOT NEWS</span></h3></div>
+                <div class="bd">
+                    <div id="hot-article">
+                       <ul class="olist">
+                                                                                                                <li class="head-item">
+                                <span class="in-top-item">
+                                    <a class="in-top-item-title" href="http://news.k618.cn/kx/201501/t20150110_5810119.html" target="_blank" mon="col=10&pn=1">中国最新航母装备一项技术 西方</a>
+                                    <span class="in-top-item-text">援引加拿大《汉和防务评论》透露，中国大陆在长兴岛造船厂3号船坞建造第二...</span>
+                                    <span class="in-top-item-decorate">01</span>
+                                </span>
+                            </li>
+                                                                                                                                                                                                    <li><span class="listnum ">02</span><a href="http://mil.sohu.com/20150109/n407661847.shtml" class="title" target="_blank" mon="col=10&pn=2">日媒：中国遇绝好机会解决南海问题 宣布</a><a href="" class="soure" target="_blank" mon="col=10&pn=2"></a></li>
+                                                                                                                                                                                                    <li><span class="listnum ">03</span><a href="http://news.k618.cn/kx/201501/t20150110_5810115.html" class="title" target="_blank" mon="col=10&pn=3">俄总理对华做出惊天让步：竟然送还一个大</a><a href="" class="soure" target="_blank" mon="col=10&pn=3"></a></li>
+                                                                                                                                                                                                    <li><span class="listnum gray">04</span><a href="http://www.qianzhan.com/military/detail/275/150110-f95a05eb.html" class="title" target="_blank" mon="col=10&pn=4">日媒：中国核武器或将“称霸”世界 月球</a><a href="" class="soure" target="_blank" mon="col=10&pn=4"></a></li>
+                                                                                                                                                                                                    <li><span class="listnum gray">05</span><a href="http://www.jfdaily.com/shanghai/new/201501/t20150110_1133054.html" class="title" target="_blank" mon="col=10&pn=5">东航一飞机遭乘客强行打开应急出口 航班</a><a href="" class="soure" target="_blank" mon="col=10&pn=5"></a></li>
+                                                                                                                                                                                                    <li><span class="listnum gray">06</span><a href="http://news.k618.cn/kx/201501/t20150111_5810171.html" class="title" target="_blank" mon="col=10&pn=6">解放军突然公布11万吨级航母 西方惊恐：</a><a href="" class="soure" target="_blank" mon="col=10&pn=6"></a></li>
+                                                                                                                                                                                                    <li><span class="listnum gray">07</span><a href="http://news.k618.cn/kx/201501/t20150111_5810173.html" class="title" target="_blank" mon="col=10&pn=7">解放军六代战机“火龙”终问世 美逼问设</a><a href="" class="soure" target="_blank" mon="col=10&pn=7"></a></li>
+                                                                                                                                                                                                    <li><span class="listnum gray">08</span><a href="http://news.k618.cn/kx/201501/t20150110_5810117.html" class="title" target="_blank" mon="col=10&pn=8">福布斯惊人预言：第三次世界大战胜利者是</a><a href="" class="soure" target="_blank" mon="col=10&pn=8"></a></li>
+                                                        <!--MONITOR MIL_RMDJ OK 8  HOTAREA-->                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</div>
+
+
+
+    <!-- start 军事图片-->
+    
+<div class="column clearfix" id="col_jstp" alog-group="log-mil-jstp">
+    
+<div class="column-title" >
+            <div class="column-title-border">
+                                    <h2>军事图片<span class="cname">MILITARY PICTURES</span></h2>
+                
+                                
+            
+            </div>
+    </div>
+
+
+    <div id="mil-picnews">
+        
+<div class="pic-list">
+    <ul>
+                                                            <li><a href="http://www.sd.xinhuanet.com/tpzx/2015-01/11/c_1113950014.htm" mon="col=11&amp;a=12&pn=1" target="_blank"><img r_src="http://t2.baidu.com/it/u=http%3A%2F%2Fwww.sd.xinhuanet.com%2Ftpzx%2F2015-01%2F11%2F1113950014_14209395202521n.jpg&amp;fm=30"/><span class="title">中国首名女潜航员学员下潜归来 </span></a></li>
+                            
+
+                                                                    <li><a href="http://www.jfdaily.com/shanghai/new/201501/t20150110_1133054.html" mon="col=11&amp;a=12&pn=2" target="_blank"><img r_src="http://t2.baidu.com/it/u=http%3A%2F%2Fimages.jfdaily.com%2Fjiefang%2Fshanghai%2Fnew%2F201501%2FW020150110535695015274.png&amp;fm=30"/><span class="title">东航一飞机遭乘客强行打开应急出口 航</span></a></li>
+                            
+
+                                                                    <li><a href="http://news.xinhuanet.com/travel/2015-01/08/c_127367225.htm" mon="col=11&amp;a=12&pn=3" target="_blank"><img r_src="http://t1.baidu.com/it/u=http%3A%2F%2Fnews.xinhuanet.com%2Ftravel%2F2015-01%2F08%2F127367225_14206266607961n.jpg&amp;fm=30"/><span class="title">2015年全球十大最安全航空公司盘点（高</span></a></li>
+                            
+
+                                                                    <li><a href="http://mil.cankaoxiaoxi.com/2015/0107/621249.shtml" mon="col=11&amp;a=12&pn=4" target="_blank"><img r_src="http://t1.baidu.com/it/u=http%3A%2F%2Fnews.xinhuanet.com%2Fmil%2F2015-01%2F07%2F127363638_14206145758961n.jpg&amp;fm=30"/><span class="title">解放军成都军区昆明总医院援利“抗埃”</span></a></li>
+                            
+
+                                                                    <li><a href="http://world.people.com.cn/n/2015/0110/c1002-26359711.html" mon="col=11&amp;a=12&pn=5" target="_blank"><img r_src="http://t1.baidu.com/it/u=http%3A%2F%2Fpaper.people.com.cn%2Frmrb%2Fres%2F1%2F20150110%2F1420826953372_1.jpg&amp;fm=30"/><span class="title">民众担忧日本走向军火大国（国际视点）</span></a></li>
+                            
+
+                                                                    <li><a href="http://news.china.com.cn/live/2015-01/09/content_30747978.htm" mon="col=11&amp;a=12&pn=6" target="_blank"><img r_src="http://t3.baidu.com/it/u=http%3A%2F%2Fimages.china.cn%2Fnews%2Fattachement%2Fjpg%2Fsite3%2F20150109%2F2936697033276803048.jpg&amp;fm=30"/><span class="title">中国海军陆战队启程赴东北寒训 寒区训</span></a></li>
+                            
+
+                                                                    <li><a href="http://www.ccin.com.cn/ccin/news/2015/01/09/311636.shtml" mon="col=11&amp;a=12&pn=7" target="_blank"><img r_src="http://t2.baidu.com/it/u=http%3A%2F%2Fwww.ccin.com.cn%2Fupload%2F150109%2F1501091229544654.jpg&amp;fm=30"/><span class="title">深水半潜式钻井平台获国家科技进步特等</span></a></li>
+                            
+
+                                                                    <li><a href="http://news.china.com/domesticgd/10000159/20150110/19193758.html" mon="col=11&amp;a=12&pn=8" target="_blank"><img r_src="http://t3.baidu.com/it/u=http%3A%2F%2Fimages2.china.com%2Fgrab%2Fimg%2F20150110%2F11341420836249.jpg&amp;fm=30"/><span class="title">2014最高科技奖唯一获得者于敏隐姓埋名</span></a></li>
+                            
+
+                                                                    <li><a href="http://www.jfdaily.com/caijing/new/201501/t20150109_1131585.html" mon="col=11&amp;a=12&pn=9" target="_blank"><img r_src="http://t3.baidu.com/it/u=http%3A%2F%2Fimages.jfdaily.com%2Fjiefang%2Fcaijing%2Fnew%2F201501%2FW020150109629405077343.jpg&amp;fm=30"/><span class="title">卡塔尔航空接收全球首架空客A350XWB飞</span></a></li>
+                            
+
+                    </ul>
+</div>
+
+
+    </div>
+
+</div>
+
+
+
+    <!--start 最新新闻-->
+    
+<div class="column clearfix" id="col_latest" alog-group="log-latest">
+    
+<div class="column-title" >
+            <div class="column-title-border">
+                                                        <h2><a href="http://mil.news.baidu.com/n?cmd=4&amp;class=mil&amp;pn=1" target="_blank">最新新闻</a><span class="cname">LATEST NEWS</span></h2>
+                    <span class="more"><a href="http://mil.news.baidu.com/n?cmd=4&amp;class=mil&amp;pn=1" target="_blank">更多</a></span>
+                                    
+                                
+            
+            </div>
+    </div>
+
+
+    <div id="latest-news">
+        <ul class="ulist" style="margin-right:150px;">
+                                                                                                                                                                                    <li><a href="http://news.k618.cn/kx/201501/t20150111_5810522.html" target="_blank" mon="col=11&pn=9">阿基诺三世极度不安：中国舰船靠近菲律宾海岸</a><span class="time">10:16</span></li>
+                                                                                    <li><a href="http://news.k618.cn/kx/201501/t20150111_5810521.html" target="_blank" mon="col=11&pn=10">北京单挑五国！普京震撼承诺让中国瞬间翻盘</a><span class="time">10:16</span></li>
+                                                                                    <li><a href="http://news.k618.cn/kx/201501/t20150111_5810517.html" target="_blank" mon="col=11&pn=11">越南服软：解放军一举动令阮富仲急赴北京示好</a><span class="time">10:15</span></li>
+                                                                                    <li><a href="http://news.k618.cn/kx/201501/t20150111_5810513.html" target="_blank" mon="col=11&pn=12">台湾情报战六大计划遭曝光 以备台登陆大陆作战</a><span class="time">10:14</span></li>
+                                                                                    <li><a href="http://news.k618.cn/kx/201501/t20150111_5810512.html" target="_blank" mon="col=11&pn=13">一触即发：南海填海造岛或加速中国对越菲动武</a><span class="time">10:13</span></li>
+                                                                                    <li><a href="http://news.k618.cn/kx/201501/t20150111_5810509.html" target="_blank" mon="col=11&pn=14">中国为何坚决不与普京结盟：七大内幕惊呆世界</a><span class="time">10:12</span></li>
+                                                                                    <li><a href="http://news.k618.cn/kx/201501/t20150111_5810504.html" target="_blank" mon="col=11&pn=15">中国超级核航母开建！起飞方式让全球不敢相信</a><span class="time">10:11</span></li>
+                                                                                    <li><a href="http://news.k618.cn/kx/201501/t20150111_5810503.html" target="_blank" mon="col=11&pn=16">世界震惊！中国“巨兽”下水 比辽宁舰厉害7倍</a><span class="time">10:10</span></li>
+                                                                                    <li><a href="http://news.k618.cn/kx/201501/t20150111_5810500.html" target="_blank" mon="col=11&pn=17">牢牢掌控南海局势：中国珍珠链战略令印度心惊！</a><span class="time">10:09</span></li>
+                                                                                    <li><a href="http://news.k618.cn/kx/201501/t20150111_5810486.html" target="_blank" mon="col=11&pn=18">不敢跟中国动武：美国这惊人预测实在太恐怖！</a><span class="time">10:05</span></li>
+                                                                        </ul>
+            <ul class="ulist">
+                                    <li><a href="http://news.k618.cn/kx/201501/t20150111_5810482.html" target="_blank" mon="col=11&pn=19">APEC期间 日本叫嚣一周就能歼灭全部中国舰队</a><span class="time">10:04</span></li>
+                                                                                    <li><a href="http://www.chinahighway.com/news/2015/898263.php" target="_blank" mon="col=11&pn=20">镇江市交通公路312国道站新年积极贯彻</a><span class="time">10:03</span></li>
+                                                                                    <li><a href="http://news.k618.cn/kx/201501/t20150111_5810474.html" target="_blank" mon="col=11&pn=21">大战果然来临：中国一杀器突然从广东调往海南</a><span class="time">10:02</span></li>
+                                                                                    <li><a href="http://news.k618.cn/kx/201501/t20150111_5810468.html" target="_blank" mon="col=11&pn=22">外媒：日本仍敌视中国或将向邻邦发起海空打击</a><span class="time">09:59</span></li>
+                                                                                    <li><a href="http://news.k618.cn/kx/201501/t20150111_5810466.html" target="_blank" mon="col=11&pn=23">美军女上将在珠海与中方对话 要求停止空中拦截</a><span class="time">09:59</span></li>
+                                                                                    <li><a href="http://news.k618.cn/kx/201501/t20150111_5810465.html" target="_blank" mon="col=11&pn=24">中美南海对峙内幕曝光：一情况暗示北京要动手</a><span class="time">09:59</span></li>
+                                                                                    <li><a href="http://news.mod.gov.cn/headlines/2015-01/11/content_4563492.htm" target="_blank" mon="col=11&pn=25">中美两军将举行人道主义救援减灾联合实兵演练和..</a><span class="time">09:59</span></li>
+                                                                                    <li><a href="http://news.k618.cn/kx/201501/t20150111_5810462.html" target="_blank" mon="col=11&pn=26">美军五大惨败战役：朝鲜战争被志愿军击溃上榜</a><span class="time">09:56</span></li>
+                                                                                    <li><a href="http://news.k618.cn/kx/201501/t20150111_5810459.html" target="_blank" mon="col=11&pn=27">北京大怒：美阻挠韩军机赴华参加航展的内幕曝光</a><span class="time">09:56</span></li>
+                                                                                    <li><a href="http://www.he.xinhuanet.com/news/2015-01/11/c_1113950229.htm" target="_blank" mon="col=11&pn=28">2014年创最好经营业绩 河北航空运送旅客近200万..</a><span class="time">09:55</span></li>
+                                                                                                                                                <!--MONITOR MIL_ZXXW OK 30 HOTAREA-->                        </ul>
+    </div>
+</div>
+
+
+
+
+	</div>
+	<!--页脚-->
+	
+    
+<div id="footerwrapper">
+<div class="bottombar" alog-group="log-footer-bottombar" alog-alias="hunter-start-bottombar">
+    <div class="bottombar-inner clearfix">
+        <div class="bot-left">
+            <h4>热门频道推荐</h4>
+            <div class="bot-left-list">
+                <ul>
+                    <li><a href="http://guonei.news.baidu.com/" target="_blank">国内</a></li>
+                    <li><a href="http://finance.baidu.com/" target="_blank">财经</a></li>
+                    <li><a href="http://shehui.news.baidu.com/" target="_blank">社会</a></li>
+                    <li><a href="http://yule.baidu.com/" target="_blank">娱乐八卦</a></li>
+                    <li><a href="http://guoji.news.baidu.com" target="_blank">国际</a></li>
+                    <li><a href="http://sports.baidu.com/" target="_blank">体育</a></li>
+                    <li><a href="http://auto.baidu.com/" target="_blank">汽车</a></li>
+                    <li><a href="http://lady.baidu.com/" target="_blank">女性时尚</a></li>
+                    <li><a href="http://mil.news.baidu.com/" target="_blank">军事</a></li>
+                    <li><a href="http://tech.baidu.com/" target="_blank">科技</a></li>
+                    <li><a href="http://renwu.baidu.com/" target="_blank">人物</a></li>
+                    <li><a href="http://internet.baidu.com/" target="_blank">互联网事</a></li>
+                    <div style="clear:both"></div>
+                </ul>
+            </div>
+        </div>
+        <div class="bot-center">
+            <h4>相关功能</h4>
+            <div class="bot-center-list">
+                <ul>
+                    <li class="center-01"><a href="http://newsalert.baidu.com/na?cmd=0" target="_blank">邮件新闻订阅</a></li>
+                    <li class="center-02"><a href="http://news.baidu.com/newscode.html" target="_blank">新闻免费代码</a></li>
+                    <li class="center-03"><a href="http://news.baidu.com/n?bypass=lamp&m=pagesother&v=newsgx" target="_blank">个性化新闻</a></li>
+                    <li class="center-04"><a href="http://www.baidu.com/search/rss.html" target="_blank">新闻订阅</a></li>
+                    <li class="center-05"><a href="http://news.baidu.com/history.html" target="_blank">历史新闻</a></li>
+                    <li class="center-06"><a href="http://news.baidu.com/n?cmd=6&loc=0&name=%B1%B1%BE%A9" target="_blank">地区新闻</a></li>
+                    <div style="clear:both"></div>
+                </ul>
+            </div>
+        </div>
+        <div class="bot-right">
+            <h4>百度新闻独家出品</h4>
+            <p class="p1">新闻由机器选取每5分钟自动更新</p>
+            <p class="p2">百度新闻搜索源于互联网新闻网站和频道，系自动分类排列，百度不刊登或转载任何完整的新闻内容</p>
+        </div>
+    </div>
+</div>
+
+<div id="footer" alog-group="log-footer" alog-alias="hunter-start-footer"><a href="http://tousu.baidu.com/news/add">投诉中心</a><span> 京公网安备110000000001号 </span><a href="http://news.baidu.com/licence.html">互联网新闻信息服务许可</a>
+    <span style="color:#7777CC;">&copy;2015 Baidu</span> <a class="cy" href="http://www.baidu.com/duty/">使用百度前必读</a> <a target="_blank" href="http://net.china.cn/chinese/index.htm"><img r_src="http://gimg.baidu.com/img/net.gif"></a> <a target="_blank" href="http://www.bj.cyberpolice.cn/index.htm"><img alt="首都网络110报警服务" src="http://gimg.baidu.com/img/110.gif"></a> <a target="_blank" href="http://www.bjjubao.org/"><img src="http://news.baidu.com/resource/img/report_center.png"></a></div>
+</div>
+
+
+    
+
+<style>#headerwrapper {
+    width:100%;
+}</style>
+
+<script src="http://cbjs.baidu.com/js/m.js"></script>
+<script>
+    BAIDU_CLB_addOrientation('newschn', 'socianews');
+    if(typeof BAIDU_CLB_fillSlotAsync != 'undefined' && document.getElementById("ecom_ad")){
+            BAIDU_CLB_fillSlotAsync('639905', 'ecom_ad');
+    }
+</script>
+
+<script type="text/javascript" language="javascript">
+    document.write("<img src='http://news.baidu.com/mp/b.jpg?cmd=1&class=mil&cy=0&"+Math.random()+"' style='display:none;'>");
+    document.write("<img id='cgif' src='http://c.baidu.com/c.gif?t=5&p=2&"+Math.random()+"' style='display:none'>");
+</script>
+
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fe9e114d958ea263de46e080563e254c4' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<script type="text/javascript">
+F.use('/static/common/lib/tangram/base/base.js',function(baidu){
+    baidu.each(baidu.dom.query('img'),function(item){	
+        if(/eiv.baidu.com\/hmt\/icon/.test(baidu.dom.getAttr(item, 'src'))){
+            item.style.display = 'none';		
+        }
+    });
+});
+</script>
+
+
+
+
+
+	
+</body>
+</html>
+<!--ecombegin--><script type="text/javascript">F.use("/static/common/ui/vs/enterState/enterState.js", function(enterState){enterState("", "")});</script><!--ecomend-->
